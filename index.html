@@ -1,15 +1,73 @@
 <!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello ! My name is Thành Nd">
-    <link href="output.css" rel="stylesheet">
-    <title>thanhnd.me</title>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold">
-      thanhnd.me
-    </h1>
-  </body>
+<html lang="en-US" class="dark font-sans">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hello ! My name is Thành Nd">
+  <link href="output.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <title>thanhnd.me</title>
+</head>
+
+<body class="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900">
+  <header id="header" class="relative z-20">
+    <div class="sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent">
+      <div class="max-w-[90rem] mx-auto">
+        <div class="py-2 lg:px-8 mx-4 lg:mx-0">
+          <div class="relative flex items-center justify-between">
+            <a class="flex justify-start mr-3 w-[2.0625rem] md:w-auto group" href="/">
+              <span class="sr-only">thanhnd.me</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="34.531" height="28.019" viewBox="0 0 34.531 28.019" class="animate-bounce transition-colors text-white group-hover:text-sky-500 dark:group-hover:text-sky-400 mt-1 min-w-[35px]">
+                <g id="thanhnd-spaceship-icon" transform="translate(-346.294 -274.055)">
+                  <g id="spaceship-icon" transform="translate(87 -2)">
+                    <path id="Union_2" data-name="Union 2" d="M-62.43,46.308l-.666.539a5.5,5.5,0,0,1-7.736-.814,5.5,5.5,0,0,1,.814-7.735l1.433-1.161A13.461,13.461,0,0,1-66.2,26.922a13.5,13.5,0,0,1,18.857-2.986A13.5,13.5,0,0,1-41.964,37.1l1.314,1.026a5.5,5.5,0,0,1,.949,7.72,5.5,5.5,0,0,1-7.72.949l-.66-.515a13.546,13.546,0,0,1-7.209,2.076A13.424,13.424,0,0,1-62.43,46.308Z" transform="translate(331.856 255.217)" fill="#0f172a" stroke="#fff" stroke-width="1"/>
+                    <path id="Path_5" data-name="Path 5" d="M330.163,109.491l1.487-5.1,2.386-3.527,3.158-2.382,4.294-1.548,4.872.183,5.012,1.95,3.844,4.547.926,2.6.66,3.275-7.169.649-7.439.385-6.948-.385-5.346-.917Z" transform="translate(-67 180)" fill="currentColor"/>
+                    <path id="Path_2" data-name="Path 2" d="M26.618,0A114.349,114.349,0,0,0,12.894.048,96.56,96.56,0,0,0,0,2" transform="matrix(-0.998, -0.07, 0.07, -0.998, 289.856, 291.668)" fill="none" stroke="#fff" stroke-width="1"/>
+                  </g>
+                </g>
+              </svg>              
+              <h1 class="text-lg ml-4 font-bold transition-colors group-hover:text-sky-500 dark:group-hover:text-sky-400">thanhnd.me</h1>
+            </a>
+
+            <nav class="bg-white border-gray-200 p-0 py-2.5 rounded dark:bg-gray-900">
+              <div class="container flex flex-wrap items-center justify-between mx-auto">
+                <button id="navbar-toggle" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto" id="navbar-content">
+                  <ul class="flex flex-col w-full top-12 absolute left-0 md:static p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 text-slate-200 font-['Poppins'] font-normal">
+                    <li>
+                      <a href="#" class="block transition-colors py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 md:p-0 md:dark:hover:text-sky-400 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block transition-colors py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 md:p-0 md:dark:hover:text-sky-400 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Experience</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block transition-colors py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 md:p-0 md:dark:hover:text-sky-400 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Work</a>
+                    </li>
+                    <li>
+                      <a href="#" class="block transition-colors py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-sky-400 md:p-0 md:dark:hover:text-sky-400 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script type="text/javascript">
+    document.getElementById("navbar-toggle").onclick = function() {menuToggle()};
+
+    function menuToggle() {
+      document.getElementById("navbar-content").classList.toggle("!block");
+    }
+  </script>
+
+</body>
 </html>
